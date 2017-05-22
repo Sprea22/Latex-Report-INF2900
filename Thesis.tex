@@ -50,9 +50,9 @@
 
 \input{Frontpages/Fixed/TableOfContents.tex}
 
-\input{Frontpages/Fixed/ListOfFigures.tex}
+%\input{Frontpages/Fixed/ListOfFigures.tex}
 
-\input{Frontpages/Fixed/ListOfTables.tex}
+%\input{Frontpages/Fixed/ListOfTables.tex}
 
 
 %% The Body -------------------------------------------------------
@@ -69,14 +69,15 @@
 
 \input{Chapters/Chapter2} % Background Theory 
 
-\input{Chapters/Chapter3} % Development Method
+\input{Chapters/Chapter3} % Analysis and Design
 
-\input{Chapters/Chapter4} % Implementation
+\input{Chapters/Chapter4} % Team Work
 
-\input{Chapters/Chapter5} % Results
+\input{Chapters/Chapter5} % Discussion
 
-\input{Chapters/Chapter6} % Conclusion
+\input{Chapters/Chapter6} % Conclusions, Evaluation and further work
 
+\input{Chapters/Chapter7} % Bibliography
 
 
 %% Appendices -----------------------------------------------------
@@ -84,25 +85,11 @@
 \lhead{\emph{Appendices}}  % Change the left side page header to "Appendices"
 \appendix % Cue to tell LaTeX that the following 'chapters' are Appendices
 
-\input{Appendices/AppendixA} % Appendix Title
+%\input{Appendices/AppendixA} % Appendix Title
 
 %\input{Appendices/AppendixB} % Appendix Title
 
 %\input{Appendices/AppendixC} % Appendix Title
-
-
-%% Bibliography ---------------------------------------------------
-\backmatter % Cue to tell LaTeX that the following 'chapters' are Bibliography
-\label{Bibliography}
-\lhead{\emph{Bibliography}}  % left side page header to "Bibliography"
-\bibliographystyle{unsrtnat}  % Use the "unsrtnat" BibTeX style for formatting the Bibliography
-
-\begingroup
-    \raggedright
-    \sloppy
-    \bibliography{Bibliography}  % The references (bibliography) information are stored in the file named "Bibliography.bib"
-\endgroup 
-
 
 \end{document}  % The End
 %% ----------------------------------------------------------------
