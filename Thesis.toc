@@ -1,6 +1,6 @@
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.2}
 \contentsline {section}{\numberline {1.1}Aim of the project}{1}{section.3}
-\contentsline {section}{\numberline {1.2}Aim of the curse}{1}{section.4}
+\contentsline {section}{\numberline {1.2}Aim of the course}{1}{section.4}
 \contentsline {chapter}{\numberline {2}Background Theory}{3}{chapter.5}
 \contentsline {section}{\numberline {2.1}Agile Software Development}{3}{section.6}
 \contentsline {section}{\numberline {2.2}Ruby on Rails}{3}{section.7}
@@ -8,20 +8,21 @@
 \contentsline {section}{\numberline {3.1}Web application architecture}{4}{section.9}
 \contentsline {section}{\numberline {3.2}Models design}{4}{section.10}
 \contentsline {subsection}{\numberline {3.2.1}User}{4}{subsection.11}
-\contentsline {subsection}{\numberline {3.2.2}Timetable}{4}{subsection.12}
-\contentsline {subsection}{\numberline {3.2.3}Event}{4}{subsection.13}
-\contentsline {subsection}{\numberline {3.2.4}Participant}{4}{subsection.14}
-\contentsline {subsection}{\numberline {3.2.5}Contact}{4}{subsection.15}
-\contentsline {chapter}{\numberline {4}Team Work}{5}{chapter.16}
-\contentsline {section}{\numberline {4.1}How we apply Agile process}{5}{section.17}
-\contentsline {section}{\numberline {4.2}Communication between the team}{5}{section.18}
-\contentsline {section}{\numberline {4.3}Struments and application used}{5}{section.19}
-\contentsline {subsection}{\numberline {4.3.1}Github}{5}{subsection.20}
-\contentsline {subsection}{\numberline {4.3.2}Pivotal Tracker}{5}{subsection.21}
-\contentsline {chapter}{\numberline {5}Discussion}{6}{chapter.22}
-\contentsline {chapter}{\numberline {6}Conclusions}{7}{chapter.23}
-\contentsline {section}{\numberline {6.1}Evaluation}{7}{section.24}
-\contentsline {section}{\numberline {6.2}Further Works on the project}{7}{section.25}
-\contentsline {section}{\numberline {6.3}Further Works on the team work process}{7}{section.26}
-\contentsline {chapter}{\numberline {7}Bibliography}{8}{chapter.27}
+\contentsline {subsection}{\numberline {3.2.2}Session}{5}{subsection.12}
+\contentsline {subsection}{\numberline {3.2.3}Timetable}{5}{subsection.13}
+\contentsline {subsection}{\numberline {3.2.4}Event}{5}{subsection.14}
+\contentsline {subsection}{\numberline {3.2.5}Participant}{5}{subsection.15}
+\contentsline {subsection}{\numberline {3.2.6}Contact}{5}{subsection.16}
+\contentsline {chapter}{\numberline {4}Team Work}{6}{chapter.17}
+\contentsline {section}{\numberline {4.1}How we apply Agile process}{6}{section.18}
+\contentsline {section}{\numberline {4.2}Communication between the team}{6}{section.19}
+\contentsline {section}{\numberline {4.3}Struments and application used}{6}{section.20}
+\contentsline {subsection}{\numberline {4.3.1}Github}{6}{subsection.21}
+\contentsline {subsection}{\numberline {4.3.2}Pivotal Tracker}{6}{subsection.22}
+\contentsline {chapter}{\numberline {5}Discussion}{7}{chapter.23}
+\contentsline {chapter}{\numberline {6}Conclusions}{8}{chapter.24}
+\contentsline {section}{\numberline {6.1}Evaluation}{8}{section.25}
+\contentsline {section}{\numberline {6.2}Further Works on the project}{8}{section.26}
+\contentsline {section}{\numberline {6.3}Further Works on the team work process}{8}{section.27}
+\contentsline {chapter}{\numberline {7}Bibliography}{9}{chapter.28}
 \vspace {2em}
