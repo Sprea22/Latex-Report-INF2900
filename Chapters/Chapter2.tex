@@ -10,7 +10,28 @@ What the reader needs to know in order to understand the rest of the report. Exa
     
 \section{Agile Software Development}
 
-\newpage
+Agile is a philosophy in software development, based on the idea of "iteration". That is, working incrementally, instead of doing everything at once. Each iteration consists on:
+\begin{itemize}
+\setlength{\itemsep}{-5pt}
+\item Plan: What do the app have to do?
+\item Design: How we want to it to behave and show?
+\item Build: Code it
+\item Test: Try it
+\item Review: Is there something which does not work properly?
+\end{itemize}
+
+\begin{figure}[H]
+	\centering
+    \includegraphics[trim={0 0 0 0},clip,width=0.5\textwidth]{Files/agile.jpg}
+    \caption{Agile diagram.\\ \textbf{Source:}https://www.linkedin.com/pulse/agile-lean-ux-anthony-miller}
+    \label{fig: Agile}
+\end{figure}
+The \textit{Plan} will be done by \textbf{User Stories}. A user story is a very simple way to write a thing which the software (the application, in this case), has to do. This story has to include the smallest problem possible. That is, is a problem can be divided into smaller problems, each of these lasts will be a story by itself. In order to write a correct user story, it has to answer to the following statement:
+\begin{center}
+\textit{As a (role) I want (something) so that (benefit).}
+\end{center}
+For example: \textit{As a public user, I want to create a new account so that I will have got a profile}\\
+A story also will have a priority (i.e. should, mandatory) and a estimated workload: in this project, a Fibonacci sequence from 1 to 13 has been used for this purpose (the easier story will de labelled with 1 and the most difficult, with 13). There are so many ways of doing user stories; this group have been using the web platform \href{https://www.pivotaltracker.com/}{Pivotal Tracker}.
 
 \section{Ruby on Rails} 
 Ruby on Rails, or simply Rails, is a server-side web application framework written in Ruby under the MIT License. Rails is a model–view–controller (MVC) framework, providing default structures for a database, a web service, and web pages. \cite{wiki:RoR}
