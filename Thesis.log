@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2017.5.22)  26 MAY 2017 18:10
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2017.5.22)  26 MAY 2017 21:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -898,30 +898,30 @@ Package pdftex.def Info: Files/Models.pdf used on input line 10.
 
 [6
 
- <./Files/Models.pdf>]) (./Chapters/Chapter4.tex [7]
+ <./Files/Models.pdf>] [7]) (./Chapters/Chapter4.tex [8]
 Chapter 4.
 ------------------------------------------------------------------------------
  4 Team Work
 ------------------------------------------------------------------------------
-) (./Chapters/Chapter5.tex [8
+) (./Chapters/Chapter5.tex [9
 
 ]
 Chapter 5.
 ------------------------------------------------------------------------------
  5 Discussion
 ------------------------------------------------------------------------------
-) (./Chapters/Chapter6.tex [9
+) (./Chapters/Chapter6.tex [10
 
 ]
 Chapter 6.
 ------------------------------------------------------------------------------
  6 Conclusions
 ------------------------------------------------------------------------------
-) (./Thesis.bbl [10
+) (./Thesis.bbl [11
 
 ])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 85.
- [11
+ [12
 
 ]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 85.
@@ -931,10 +931,10 @@ Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 85.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 85.
  ) 
 Here is how much of TeX's memory you used:
- 14080 strings out of 493304
- 196764 string characters out of 6139871
+ 14082 strings out of 493304
+ 196789 string characters out of 6139871
  286879 words of memory out of 5000000
- 17268 multiletter control sequences out of 15000+600000
+ 17269 multiletter control sequences out of 15000+600000
  12272 words of font info for 45 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  49i,11n,45p,13111b,398s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -946,10 +946,10 @@ xmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts
 /type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1
 /public/amsfonts/cm/cmti10.pfb>
-Output written on Thesis.pdf (13 pages, 279688 bytes).
+Output written on Thesis.pdf (14 pages, 280750 bytes).
 PDF statistics:
- 268 PDF objects out of 1000 (max. 8388607)
- 235 compressed objects within 3 object streams
- 46 named destinations out of 1000 (max. 500000)
+ 272 PDF objects out of 1000 (max. 8388607)
+ 238 compressed objects within 3 object streams
+ 47 named destinations out of 1000 (max. 500000)
  250 words of extra memory for PDF output out of 10000 (max. 10000000)
 

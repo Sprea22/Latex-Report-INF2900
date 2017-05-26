@@ -21,6 +21,17 @@ The rest of the model is set up to ensure that the user information is correct. 
 The timetable
 \subsection{Event}
 \subsection{Participant}
+The participant model was the last one on implementation, and the most difficult, due to the fact it has relations with two other models:
+\begin{itemize} \setlength{\itemsep}{-5pt}
+\item Users: a participant is a user. That is, one-to-many relationship.
+\item Timetables: many-to-many relationship
+\begin{itemize} \setlength{\itemsep}{-5pt}
+\item A participant "belongs" to a timetable, but can participate in many timetables.
+\item A timetable can have many participants.
+\end{itemize}
+\end{itemize} 
+Obviously, the fields for the foreign keys to user and timetable can not be empty.\\
+The many-to-many relation was done separating the "belongs\_to/has\_many" instead using the formula "has\_and\_belongs\_to\_many" because this last one caused us problems in the admin page and when trying to use the foreign keys. These problems were caused  because the use of the foreign key as \textit{user.participant} were not different from \textit{user.participants} (there were not two different relationships).
 \subsection{Contact}
 The contact model is a small and simple one, but it contains the necessary parts for a proper e-mail header. 
 Whenever a user submits a new contact form, the model validates the fields of the form, as well as one "invisible" field, 
