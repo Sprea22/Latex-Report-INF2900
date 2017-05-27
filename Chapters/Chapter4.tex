@@ -1,10 +1,31 @@
 \chap{Team Work}
 
 \section{How we apply Agile process}
-
+As Agile is based on iterations, this project has been organized in three of them. During each iteration, the \textit{plan-design-built-try} process has been developed in the best way possible, learning from errors and tried to improve the process from one iteration to another.
+	\subsection{First iteration}
+	We started the project deciding \textbf{what} we wanted to do; the aim of the application. We also decided that the fist iteration should be for the general structure of the platform: main page, basic static pages and basic functionality. For designing, we draw the different pages and how they should look, behave and connect between them. Also, we decided and did a schema of the structure of the models (see Figure \ref{fig: Models}).\\
+	After design the basic structure, we did the user stories for that structure in a shared document (via \href{https://drive.google.com/drive/my-drive/}{Google Drive}). For example:
+	\begin{itemize} \setlength{\itemsep}{-5pt}
+	\item As a public user, I’ll be able to reach the web application site. 1 point
+	\item As a public user, I’ll need to be able to create a private user. 5 points
+	\item As an admin, I’ll be able to see the list of users. 5 points
+	\end{itemize}
+	For coding, this iteration was the most difficult one, as far as we had to learn Ruby on Rails from the very beginning. For the first steps, we used \href{https://www.railstutorial.org/book/}{a Ruby tutorial} which help us to learn how to start a project in Rails.\\
+	Due to the hard start, we ended the first iteration doing around 80\% of the user stories we had at the beginning. Thus, we re-scheduled the work plan, checking which worked and which did not.
+	\subsection{Second iteration}
+	We started this with the basic structure implemented; we planned the amount of work we could face in the time we had and did the corresponding user stories. This time, we tried to be more effective and organized and started to use \textit{Pivotal Tracker} for user stories. The improvement of using this platform instead of \textit{Google Drive} is explained in Section \ref{Pivotal_Tracker}.\\
+	The objective of this iteration was to do the real implementation of the application. That is, all the functionality of the platform, as we had thought it in the beginning. We re-planned (and draw it again) the pages, but this time with the non-basic behaviour we wanted. For example, this was the time for implement the ability of an user of joining a timetable, or for letting a timetable to have several events.\\
+	In terms of coding, that meant ending the database and relationships between the models, and being used to the capacities of Ruby on Rails. The most powerful tool of Ruby we found is the use of foreign keys; the way you can pass though all the models in one variable, and the capacity of mixing html with Ruby's code.\\
+	Even though we couldn't achieve all the implementation scheduled, we did almost everything and had to re-plan just a few things for the third and last iteration. In order to plan it properly, we did a document with all the errors or bad behaviours we could find. This document was not unique, but was for re-writing it while we used more and more the application, during the whole third iteration.
+	\subsection{Third iteration}
+	The work planned for this one was separated in three parts: 1) to end with the re-scheduled work from iteration two (e.g. the contact form); 2) to do the graphics of the website and 3) going through the app and fix all the small "problems" (e.g. a problem with the admin page, or a missing \textit{Help} link). As before, we used Pivotal Tracker for the user stories, for being conscious of the remaining work. During this iteration, we did "small" agile iterations, due to the fact we were fixing problems and redoing the code. \\
+	We ended the iteration with the application working properly (except a graphic issue in the about page) and all the expected functionality implemented. 
 \section{Communication between the team}
-
-\section{Struments and application used}
-	\subsection{Github}
-	\subsection{Pivotal Tracker}
-	
+The communication and meetings had been an important issue, because the different schedules, lectures and availability or each member of the group. Even though, we considered important to meet once per week and tried hard for achieve it. We used a chat group for arranging the best time for meetings; this group also was used for being updated about the work (the user stories) others members were doing (in addition to Pivotal Tracker, as we will see later).\\
+During the meetings, we helped each others with code problems that we found and could not face with no help. Also, we used the time of meetings for self-coding in group, and update the amount of pending tasks. The group-coding time resulted very productive, and we found that during this time we did many tasks. Because of that, along iterations, we have spent more time working in group (although most of the time was for self-coding).
+\section{Instruments and applications used}
+	\subsection{Git}
+The main tool for sharing code (and not only for sharing) in software development is \textbf{Git}, a version control system which principal purpose is to maintain the control over different versions of the same project; that is, being able to get back "in time" if something went wrong. Also, it is a powerful tool for update every small change done in the code, and everybody could have the last version of the project.\\
+During the three iterations, Git have been used for the control of the project. First iteration was very useless in respect of updating the changes, and it resulted in problems with merging each one's version. We learnt from our mistakes, and tried to improve in pushing every small change in the code, in order of not having merging problems and working with the last version. We used also the team times for merging, with the aim of being able of ask about other's code.
+	\subsection{Pivotal Tracker} \label{Pivotal_Tracker}
+As we have explained before, we did user stories in a shared document in the first iteration; it resulted not very productive. Thus, we looked for some tool to improve the usefulness of user stories. We found \href{https://www.pivotaltracker.com/}{Pivotal Tracker}, a website that let you start a project and add user stories to it. They have the format before explained (see Section \ref{Agile}), and also let you give each story Fibonacci points. Furthermore, it let you add different tasks to each story, which makes very easy to schedule your work and to see others' progress. Also, a person can "choose" a task, and marked it as \textit{started}, for others know which tasks have already a "owner".

@@ -1,8 +1,26 @@
 \begin{thebibliography}{1}
 
+\bibitem{agile:modeling}
+Agile modeling.
+\newblock User stories: an agile introduction.
+\newblock \url{http://www.agilemodeling.com/artifacts/userStory.htm}.
+
+\bibitem{agile:nutshell}
+Jonathan Rasmusson.
+\newblock Agile in a nutshell.
+\newblock \url{http://www.agilenutshell.com/}.
+
 \bibitem{wiki:RoR}
 Wikipedia.
-\newblock Ruby on rails --- wikipedia{,} the free encyclopedia, 2017.
+\newblock Ruby on rails --- wikipedia{,} the free encyclopedia.
+\newblock
+  \url{https://en.wikipedia.org/w/index.php?title=Ruby_on_Rails&oldid=782105184},
+  2017.
 \newblock [Online; accessed 25-May-2017].
+
+\bibitem{draw:io}
+draw:io.
+\newblock Draw io.
+\newblock \url{https://www.draw.io/}.
 
 \end{thebibliography}

@@ -7,21 +7,24 @@
 \contentsline {chapter}{\numberline {3}Analysis and Design}{6}{chapter.10}
 \contentsline {section}{\numberline {3.1}Web application architecture}{6}{section.11}
 \contentsline {section}{\numberline {3.2}Models design}{6}{section.12}
-\contentsline {subsection}{\numberline {3.2.1}User}{6}{subsection.14}
+\contentsline {subsection}{\numberline {3.2.1}User}{7}{subsection.14}
 \contentsline {subsection}{\numberline {3.2.2}Session}{7}{subsection.15}
 \contentsline {subsection}{\numberline {3.2.3}Timetable}{7}{subsection.16}
 \contentsline {subsection}{\numberline {3.2.4}Event}{7}{subsection.17}
 \contentsline {subsection}{\numberline {3.2.5}Participant}{7}{subsection.18}
-\contentsline {subsection}{\numberline {3.2.6}Contact}{7}{subsection.19}
+\contentsline {subsection}{\numberline {3.2.6}Contact}{8}{subsection.19}
 \contentsline {chapter}{\numberline {4}Team Work}{9}{chapter.20}
 \contentsline {section}{\numberline {4.1}How we apply Agile process}{9}{section.21}
-\contentsline {section}{\numberline {4.2}Communication between the team}{9}{section.22}
-\contentsline {section}{\numberline {4.3}Struments and application used}{9}{section.23}
-\contentsline {subsection}{\numberline {4.3.1}Github}{9}{subsection.24}
-\contentsline {subsection}{\numberline {4.3.2}Pivotal Tracker}{9}{subsection.25}
-\contentsline {chapter}{\numberline {5}Discussion}{10}{chapter.26}
-\contentsline {chapter}{\numberline {6}Conclusions}{11}{chapter.27}
-\contentsline {section}{\numberline {6.1}Evaluation}{11}{section.28}
-\contentsline {section}{\numberline {6.2}Further Works on the project}{11}{section.29}
-\contentsline {section}{\numberline {6.3}Further Works on the team work process}{11}{section.30}
-\contentsline {chapter}{Bibliography}{12}{chapter*.31}
+\contentsline {subsection}{\numberline {4.1.1}First iteration}{9}{subsection.22}
+\contentsline {subsection}{\numberline {4.1.2}Second iteration}{10}{subsection.23}
+\contentsline {subsection}{\numberline {4.1.3}Third iteration}{10}{subsection.24}
+\contentsline {section}{\numberline {4.2}Communication between the team}{11}{section.25}
+\contentsline {section}{\numberline {4.3}Instruments and applications used}{11}{section.26}
+\contentsline {subsection}{\numberline {4.3.1}Git}{11}{subsection.27}
+\contentsline {subsection}{\numberline {4.3.2}Pivotal Tracker}{11}{subsection.28}
+\contentsline {chapter}{\numberline {5}Discussion}{12}{chapter.29}
+\contentsline {chapter}{\numberline {6}Conclusions}{13}{chapter.30}
+\contentsline {section}{\numberline {6.1}Evaluation}{13}{section.31}
+\contentsline {section}{\numberline {6.2}Further Works on the project}{13}{section.32}
+\contentsline {section}{\numberline {6.3}Further Works on the team work process}{13}{section.33}
+\contentsline {chapter}{Bibliography}{14}{chapter*.34}
