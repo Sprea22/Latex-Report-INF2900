@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.5.22)  27 MAY 2017 12:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.5.22)  28 MAY 2017 12:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -848,7 +848,11 @@ Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
 \verbatim@line=\toks35
 \verbatim@in@stream=\read1
 ))
-(./Settings/Administrative.tex) (./Thesis.aux)
+(./Settings/Administrative.tex) (./Thesis.aux
+
+LaTeX Warning: Label `fig: MVC' multiply defined.
+
+)
 \openout1 = `Thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
@@ -872,8 +876,7 @@ Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: longtable package is loaded.
-
-(/usr/share/texlive/texmf-dist/tex/latex/caption/ltcaption.sty
+ (/usr/share/texlive/texmf-dist/tex/latex/caption/ltcaption.sty
 Package: ltcaption 2013/06/09 v1.4-94 longtable captions (AR)
 )
 Package caption Info: rotating package is loaded.
@@ -944,106 +947,157 @@ Chapter 1.
 ------------------------------------------------------------------------------
  1 Introduction
 ------------------------------------------------------------------------------
-
-Underfull \hbox (badness 10000) in paragraph at lines 8--12
-
- []
-
-) [1
-
-
-
-] (./Chapters/Chapter2.tex [2]
-Chapter 2.
-------------------------------------------------------------------------------
- 2 Background Theory
-------------------------------------------------------------------------------
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 16.
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 16.
+)
+(./Chapters/Chapter2.tex [1
 
-<Files/agile.jpg, id=85, 523.20468pt x 195.73125pt>
+
+
+]
+Chapter 2.
+------------------------------------------------------------------------------
+ 2 Background Theory
+------------------------------------------------------------------------------
+<Files/agile.jpg, id=91, 523.20468pt x 195.73125pt>
 File: Files/agile.jpg Graphic file (type jpg)
  <use Files/agile.jpg>
-Package pdftex.def Info: Files/agile.jpg used on input line 25.
-(pdftex.def)             Requested size: 208.73653pt x 78.08801pt.
+Package pdftex.def Info: Files/agile.jpg used on input line 18.
+(pdftex.def)             Requested size: 417.47307pt x 156.17902pt.
 
-[3
+[2
 
- <./Files/agile.jpg>] <Files/MVC.png, id=97, 501.875pt x 552.0625pt>
+ <./Files/agile.jpg>] <Files/MVC.png, id=105, 501.875pt x 552.0625pt>
 File: Files/MVC.png Graphic file (type png)
 
 <use Files/MVC.png>
-Package pdftex.def Info: Files/MVC.png used on input line 41.
+Package pdftex.def Info: Files/MVC.png used on input line 36.
 (pdftex.def)             Requested size: 208.73653pt x 229.61551pt.
- [4 <./Files/MVC.png>]) (./Chapters/Chapter3.tex [5]
+ [3 <./Files/MVC.png>]) (./Chapters/Chapter3.tex [4]
 Chapter 3.
 ------------------------------------------------------------------------------
  3 Analysis and Design
 ------------------------------------------------------------------------------
-<Files/Models.pdf, id=113, 1024.82875pt x 469.755pt>
-File: Files/Models.pdf Graphic file (type pdf)
- <use Files/Models.pdf>
-Package pdftex.def Info: Files/Models.pdf used on input line 10.
-(pdftex.def)             Requested size: 417.47307pt x 191.36075pt.
+<Files/Models.jpg, id=122, 1085.05376pt x 518.93875pt>
+File: Files/Models.jpg Graphic file (type jpg)
+ <use Files/Models.jpg>
+Package pdftex.def Info: Files/Models.jpg used on input line 10.
+(pdftex.def)             Requested size: 417.47307pt x 199.66138pt.
 
-[6
+[5
 
- <./Files/Models.pdf>] [7]) (./Chapters/Chapter4.tex [8]
+ <./Files/Models.jpg>] [6]) (./Chapters/Chapter4.tex [7]
 Chapter 4.
 ------------------------------------------------------------------------------
  4 Team Work
 ------------------------------------------------------------------------------
-) (./Chapters/Chapter5.tex [9
+[8
 
-]
+] [9]) (./Chapters/Chapter5.tex [10] [11]
 Chapter 5.
 ------------------------------------------------------------------------------
  5 Discussion
 ------------------------------------------------------------------------------
-) (./Chapters/Chapter6.tex [10
+[12
 
-]
+] <Files/commitsToMaster.png, id=180, 1807.75375pt x 660.4675pt>
+File: Files/commitsToMaster.png Graphic file (type png)
+
+<use Files/commitsToMaster.png>
+Package pdftex.def Info: Files/commitsToMaster.png used on input line 44.
+(pdftex.def)             Requested size: 417.47307pt x 152.51907pt.
+) (./Chapters/Chapter6.tex [13 <./Files/commitsToMaster.png>]
 Chapter 6.
 ------------------------------------------------------------------------------
  6 Conclusions
 ------------------------------------------------------------------------------
-) (./Thesis.bbl [11
+) (./Thesis.bbl [14
 
-])
+]
+Underfull \hbox (badness 1102) in paragraph at lines 14--20
+[]\OT1/cmr/m/n/10.95 Wikipedia.  Ruby on rails --- wikipedia, the free en-cy-cl
+o-pe-dia.  [][]$\OT1/cmtt/m/n/10.95 https : / /
+ []
+
+
+Underfull \hbox (badness 1728) in paragraph at lines 27--31
+[]\OT1/cmr/m/n/10.95 Atlassian.  What is a ver-sion con-trol.  [][]$\OT1/cmtt/m
+/n/10.95 https : / / www . atlassian . com / git /
+ []
+
+)
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 85.
- [12
+ [15
 
 ]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 85.
  (./Thesis.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 85.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 85.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 85.
  ) 
 Here is how much of TeX's memory you used:
- 14221 strings out of 493029
- 198130 string characters out of 6136234
- 289718 words of memory out of 5000000
- 17485 multiletter control sequences out of 15000+600000
- 12272 words of font info for 45 fonts, out of 8000000 for 9000
+ 14271 strings out of 493029
+ 198894 string characters out of 6136234
+ 291014 words of memory out of 5000000
+ 17510 multiletter control sequences out of 15000+600000
+ 12440 words of font info for 46 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 49i,11n,45p,13111b,396s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/tex
-live/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmti10.pfb>
-Output written on Thesis.pdf (14 pages, 280701 bytes).
+ 49i,11n,45p,13111b,400s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{chapter*.37} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.36} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{chapter.33} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{section.31} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{chapter.29} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.28} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.26} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.24} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.21} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{chapter.20} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.19} has been referenced but does not exi
+st, replaced by a fixed one
+
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmtt10.pfb>
+Output written on Thesis.pdf (17 pages, 327732 bytes).
 PDF statistics:
- 272 PDF objects out of 1000 (max. 8388607)
- 238 compressed objects within 3 object streams
- 47 named destinations out of 1000 (max. 500000)
- 250 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 350 PDF objects out of 1000 (max. 8388607)
+ 309 compressed objects within 4 object streams
+ 70 named destinations out of 1000 (max. 500000)
+ 293 words of extra memory for PDF output out of 10000 (max. 10000000)
 
