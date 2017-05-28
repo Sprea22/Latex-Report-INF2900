@@ -18,8 +18,10 @@ The rest of the model is set up to ensure that the user information is correct. 
 
 \subsection{Session}
 \subsection{Timetable}
-The timetable
+The timetable model provide to the users the possibility to set up the general information about a specific schedule. The main utility of the timetable records is to group up the events of the same schedule, allowing users to find and check out the events which they are interested in.
 \subsection{Event}
+The event model allows users to create and record data about a new event of a specific timetable that they own. When ever a owner of a timetable wants to create an event, he has the possibility to do it using this model that provide several active record fields such as name of the events, date of the event, starting time, ending time.. \\
+Is important to remember that each single event belongs to a timetable.
 \subsection{Participant}
 The participant model was the last one on implementation, and the most difficult, due to the fact it has relations with two other models:
 \begin{itemize} \setlength{\itemsep}{-5pt}

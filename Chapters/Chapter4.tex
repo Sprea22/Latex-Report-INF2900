@@ -3,7 +3,7 @@
 \section{How we apply Agile process}
 As Agile is based on iterations, this project has been organized in three of them. During each iteration, the \textit{plan-design-built-try} process has been developed in the best way possible, learning from errors and tried to improve the process from one iteration to another.
 	\subsection{First iteration}
-	We started the project deciding \textbf{what} we wanted to do; the aim of the application. We also decided that the fist iteration should be for the general structure of the platform: main page, basic static pages and basic functionality. For designing, we draw the different pages and how they should look, behave and connect between them. Also, we decided and did a schema of the structure of the models (see Figure \ref{fig: Models}).\\
+	We started the project deciding \textbf{what} we wanted to do; the aim of the application. We also decided that the first iteration should be for the general structure of the platform: main page, basic static pages and basic functionality. For designing, we draw the different pages and how they should look, behave and connect between them. Also, we decided and did a schema of the structure of the models (see Figure \ref{fig: Models}).\\
 	After design the basic structure, we did the user stories for that structure in a shared document (via \href{https://drive.google.com/drive/my-drive/}{Google Drive}). For example:
 	\begin{itemize} \setlength{\itemsep}{-5pt}
 	\item As a public user, I’ll be able to reach the web application site. 1 point
@@ -19,13 +19,28 @@ As Agile is based on iterations, this project has been organized in three of the
 	Even though we couldn't achieve all the implementation scheduled, we did almost everything and had to re-plan just a few things for the third and last iteration. In order to plan it properly, we did a document with all the errors or bad behaviours we could find. This document was not unique, but was for re-writing it while we used more and more the application, during the whole third iteration.
 	\subsection{Third iteration}
 	The work planned for this one was separated in three parts: 1) to end with the re-scheduled work from iteration two (e.g. the contact form); 2) to do the graphics of the website and 3) going through the app and fix all the small "problems" (e.g. a problem with the admin page, or a missing \textit{Help} link). As before, we used Pivotal Tracker for the user stories, for being conscious of the remaining work. During this iteration, we did "small" agile iterations, due to the fact we were fixing problems and redoing the code. \\
-	We ended the iteration with the application working properly (except a graphic issue in the about page) and all the expected functionality implemented. 
-\section{Communication between the team}
-The communication and meetings had been an important issue, because the different schedules, lectures and availability or each member of the group. Even though, we considered important to meet once per week and tried hard for achieve it. We used a chat group for arranging the best time for meetings; this group also was used for being updated about the work (the user stories) others members were doing (in addition to Pivotal Tracker, as we will see later).\\
-During the meetings, we helped each others with code problems that we found and could not face with no help. Also, we used the time of meetings for self-coding in group, and update the amount of pending tasks. The group-coding time resulted very productive, and we found that during this time we did many tasks. Because of that, along iterations, we have spent more time working in group (although most of the time was for self-coding).
-\section{Instruments and applications used}
+	We ended the iteration with the application working properly (except a graphic issue in the about page) and all the expected functionality implemented.
+	
+\section{Team cooperation and communication}
+Promote cooperation and communication between team members is probably one of the most important thing during a group project development process. Most of the time it's hard to figure out a good way for cooperate and communicate between each other, and also during this project it has been an relative issue, in particular in the first part of the project. It was mainly caused by different schedules, lectures and available time of each member of the team.
+Even that, every single team member agreed about the importance of frequent meetings, so we almost always planned a group meeting once per week. 
+The main communication way between the team member has been a chat group: it was used for decide team meeting and also to update the other teams about ideas or news about the code.
+We basically spent the meeting's time:
+\vspace{-5mm}
+\begin{itemize}
+ \setlength{\itemsep}{-5pt}
+ \item Helping each other with any kind of problems about the project
+ \item Discussing new ideas 
+ \item Planning what to do in the following period
+ \item Group-coding 
+\end{itemize} 
+\vspace{-5mm}
+The group-coding time resulted very productive, and we found that during this time we did many tasks. Because of that, along iterations, we have spent more time working in group (although most of the time was for self-coding).
+\section{Instruments and Applications usage}
 	\subsection{Git}
-The main tool for sharing code (and not only for sharing) in software development is \textbf{Git}, a version control system which principal purpose is to maintain the control over different versions of the same project; that is, being able to get back "in time" if something went wrong. Also, it is a powerful tool for update every small change done in the code, and everybody could have the last version of the project.\\
-During the three iterations, Git have been used for the control of the project. First iteration was very useless in respect of updating the changes, and it resulted in problems with merging each one's version. We learnt from our mistakes, and tried to improve in pushing every small change in the code, in order of not having merging problems and working with the last version. We used also the team times for merging, with the aim of being able of ask about other's code.
+During the whole project development \textbf{Git} has been an indispensable instrument.\\
+Is possible to define Git as a version control system, which means that the principal purpose is to help a software team manage changes to source code over time. In particular, it keeps track of every modification to the code in a special kind of database and, if a mistake is made, developers have the possibility to turn back and compare earlier version of the code in order to fix the mistake.\cite{versionController}\\
+During this project, Git usage has been improved a lot between the first iteration and the last one. For example, during the first part of the project there were several problems about merging and push/pull of code, mainly caused by a lack of knowledge about how to use this system in a proper way. Then, once learnt from our mistakes, during the following parts of the project Git usage has been improved a lot and it provided a significant help to the team work. Probably the most appreciated Git function during this project was the possibility to always check out the latest version of the code, since all the team members were committing code quite often.
+
 	\subsection{Pivotal Tracker} \label{Pivotal_Tracker}
 As we have explained before, we did user stories in a shared document in the first iteration; it resulted not very productive. Thus, we looked for some tool to improve the usefulness of user stories. We found \href{https://www.pivotaltracker.com/}{Pivotal Tracker}, a website that let you start a project and add user stories to it. They have the format before explained (see Section \ref{Agile}), and also let you give each story Fibonacci points. Furthermore, it let you add different tasks to each story, which makes very easy to schedule your work and to see others' progress. Also, a person can "choose" a task, and marked it as \textit{started}, for others know which tasks have already a "owner".
