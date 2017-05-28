@@ -1,14 +1,23 @@
 \begin{thebibliography}{1}
 
+\bibitem{agile:nutshell}
+Jonathan Rasmusson.
+\newblock Agile in a nutshell.
+\newblock \url{http://www.agilenutshell.com/}.
+
+\bibitem{agile:figure}
+Anthony Miller.
+\newblock Agile and lean ux.
+\newblock \url{https://www.linkedin.com/pulse/agile-lean-ux-anthony-miller}.
+
 \bibitem{agile:modeling}
 Agile modeling.
 \newblock User stories: an agile introduction.
 \newblock \url{http://www.agilemodeling.com/artifacts/userStory.htm}.
 
-\bibitem{agile:nutshell}
-Jonathan Rasmusson.
-\newblock Agile in a nutshell.
-\newblock \url{http://www.agilenutshell.com/}.
+\bibitem{pivotal}
+Pivotal Tracker.
+\newblock \url{https://www.pivotaltracker.com/}.
 
 \bibitem{wiki:RoR}
 Wikipedia.
@@ -18,15 +27,19 @@ Wikipedia.
   2017.
 \newblock [Online; accessed 25-May-2017].
 
+\bibitem{wiki:mvc}
+Wikipedia.
+\newblock Model–view–controller.
+\newblock \url{https://en.wikipedia.org/wiki/Model-view-controller}.
+
 \bibitem{draw:io}
-Draw:io.
-\newblock Draw io.
+Draw IO.
 \newblock \url{https://www.draw.io/}.
 
 \bibitem{versionController}
 Atlassian.
 \newblock What is a version control.
-\newblock \url{https://www.atlassian.com/git/tutorials/what-is-
-  version-control}.
+\newblock
+  \url{https://www.atlassian.com/git/tutorials/what-is-version-control}.
 
 \end{thebibliography}
