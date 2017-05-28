@@ -5,25 +5,20 @@ Jonathan Rasmusson.
 \newblock Agile in a nutshell.
 \newblock \url{http://www.agilenutshell.com/}.
 
-\bibitem{agile:figure}
-Anthony Miller.
-\newblock Agile and lean ux.
-\newblock \url{https://www.linkedin.com/pulse/agile-lean-ux-anthony-miller}.
-
 \bibitem{agile:modeling}
 Agile modeling.
 \newblock User stories: an agile introduction.
 \newblock \url{http://www.agilemodeling.com/artifacts/userStory.htm}.
 
-\bibitem{pivotal}
-Pivotal Tracker.
-\newblock \url{https://www.pivotaltracker.com/}.
+\bibitem{agile:figure}
+Anthony Miller.
+\newblock Agile and lean ux.
+\newblock \url{https://www.linkedin.com/pulse/agile-lean-ux-anthony-miller}.
 
 \bibitem{wiki:RoR}
 Wikipedia.
 \newblock Ruby on rails --- wikipedia{,} the free encyclopedia.
 \newblock \url{https://en.wikipedia.org/wiki/Ruby_on_Rails}, 2017.
-\newblock [Online; accessed 25-May-2017].
 
 \bibitem{wiki:mvc}
 Wikipedia.
