@@ -26,11 +26,11 @@ The rest of the model is set up to ensure that the user information is correct. 
 
 \subsection{Timetable}
 \vspace{-5mm}
-The timetable model provide to the users the possibility to set up the general information about a specific schedule. The main utility of the timetable records is to group up the events of the same schedule, allowing users to find and check out the events which they are interested in.
+The timetable model provides to the users the possibility to set up the general information about a specific schedule. The main utility of the timetable records is to group up the events of the same schedule, allowing users to find and check out the events which they are interested in.
 \subsection{Event}
 \vspace{-5mm}
-The event model allows users to create and record data about a new event of a specific timetable that they own. When ever a owner of a timetable wants to create an event, he has the possibility to do it using this model that provide several active record fields such as name of the events, date of the event, starting time, ending time.. \\
-Is important to remember that each single event belongs to a timetable.
+The event model allows a user to create and record data about a new event in a specific timetable of its own. When ever a owner of a timetable wants to create an event, he has the possibility to do it using this model that provide several active record fields such as name of the events, date of the event, starting time, ending time, etc \\
+It is important to remember that each single event belongs to a timetable.
 \subsection{Participant}
 \vspace{-5mm}
 The participant model was the last one on implementation, and the most difficult, due to the fact it has relations with two other models:
@@ -46,8 +46,8 @@ Obviously, the fields for the foreign keys to user and timetable can not be empt
 The many-to-many relation was done separating the "belongs\_to/has\_many" instead using the formula "has\_and\_belongs\_to\_many" because this last one caused us problems in the admin page and when trying to use the foreign keys. These problems were caused  because the use of the foreign key as \textit{user.participant} were not different from \textit{user.participants} (there were not two different relationships).
 \subsection{Contact}
 \vspace{-5mm}
-The contact model is a small and simple one, but it contains the necessary parts for a proper e-mail header. 
+The contact model is a small and simply one, but it contains the necessary parts for a proper e-mail header. 
 Whenever a user submits a new contact form, the model validates the fields of the form, as well as one "invisible" field, 
 used for catching spam bots. This "spam catcher" works by refusing to submit forms where the field \textit{nickname} 
-contains any characters. Since the field being hidden by some CSS code, we know that a human can't see this field, unless they have access to the code, in which case it's most likely a robot of some kind.
+contains any characters. The field is hidden by some CSS code, that is, a human can not see this field, unless it have access to the code, in which case it's most likely a robot of some kind.
  
