@@ -1,29 +1,42 @@
 \chap{Team Work}
 
-\section{How we apply Agile process}
+\section{Agile implementation}
 \vspace{-5mm}
-As Agile is based on iterations, this project has been organized in three of them. During each iteration, the \textit{plan-design-built-try} process has been developed in the best way possible, learning from errors and tried to improve the process from one iteration to another.
-	\subsection{First iteration}
-	\vspace{-5mm}
-	We started the project deciding \textbf{what} we wanted to do; the aim of the application. We also decided that the first iteration should be for the general structure of the platform: main page, basic static pages and basic functionality. For designing, we draw the different pages and how they should look, behave and connect between them. Also, we decided and did a schema of the structure of the models (see Figure \ref{fig: Models}).\\
-	After design the basic structure, we did the user stories for that structure in a shared document (via \href{https://drive.google.com/drive/my-drive/}{Google Drive}). For example:
-	\begin{itemize} \setlength{\itemsep}{-5pt}
-	\item As a public user, I’ll be able to reach the web application site. 1 point
-	\item As a public user, I’ll need to be able to create a private user. 5 points
-	\item As an admin, I’ll be able to see the list of users. 5 points
-	\end{itemize}
-	For coding, this iteration was the most difficult one, as far as we had to learn Ruby on Rails from the very beginning. For the first steps, we used \href{https://www.railstutorial.org/book/}{a Ruby tutorial} which help us to learn how to start a project in Rails.\\
-	Due to the hard start, we ended the first iteration doing around 80\% of the user stories we had at the beginning. Thus, we re-scheduled the work plan, checking which worked and which did not.
-	\subsection{Second iteration}
-	\vspace{-5mm}
-	We started this with the basic structure implemented; we planned the amount of work we could face in the time we had and did the corresponding user stories. This time, we tried to be more effective and organized and started to use \textit{Pivotal Tracker} for user stories. The improvement of using this platform instead of \textit{Google Drive} is explained in Section \ref{Pivotal_Tracker}.\\
-	The objective of this iteration was to do the real implementation of the application. That is, all the functionality of the platform, as we had thought it in the beginning. We re-planned (and draw it again) the pages, but this time with the non-basic behaviour we wanted. For example, this was the time for implement the ability of an user of joining a timetable, or for letting a timetable to have several events.\\
-	In terms of coding, that meant ending the database and relationships between the models, and being used to the capacities of Ruby on Rails. The most powerful tool of Ruby we found is the use of foreign keys; the way you can pass though all the models in one variable, and the capacity of mixing html with Ruby's code.\\
-	Even though we couldn't achieve all the implementation scheduled, we did almost everything and had to re-plan just a few things for the third and last iteration. In order to plan it properly, we did a document with all the errors or bad behaviours we could find. This document was not unique, but was for re-writing it while we used more and more the application, during the whole third iteration.
-	\subsection{Third iteration}
-	\vspace{-5mm}
-	The work planned for this one was separated in three parts: 1) to end with the re-scheduled work from iteration two (e.g. the contact form); 2) to do the graphics of the website and 3) going through the app and fix all the small "problems" (e.g. a problem with the admin page, or a missing \textit{Help} link). As before, we used Pivotal Tracker for the user stories, for being conscious of the remaining work. During this iteration, we did "small" agile iterations, due to the fact we were fixing problems and redoing the code. \\
-	We ended the iteration with the application working properly (except a graphic issue in the about page) and all the expected functionality implemented.
+As mentioned, Agile is based around incremental iterations, and this project was \\developed throughout three iterations. During each iteration, the Agile development process described in section 2.1.2 has been followed in the best way possible, learning from errors and trying to improve the process from one iteration to the next.
+
+\subsection{First iteration}
+\vspace{-5mm}
+We started off by deciding which direction we wanted to go; the aim of the application. It was also decided that the first iteration should be focused around the general structure of the platform: static pages (home, about, help, etc.) and basic functionality. \\\\
+During the second group meeting we made sketches of the different pages and how we wanted them to look, behave and interact with each other. Also, we planned the basic structure of the schema for the models (see Figure \ref{fig: Models}).\\\\
+After design the basic structure, we created several user stories for this iteration, and stored them in a shared document, via Google Drive. Some examples of the stories are:
+\vspace{-5mm}
+\begin{itemize} \setlength{\itemsep}{-5pt}
+\item As a public user, I'll be able to reach the home page. 1 point
+\item As a public user, I'll need to be able to create a private user. 5 points
+\item As an admin, I'll be able to see the list of users. 5 points
+\end{itemize}
+\pagebreak
+This iteration was the most difficult one, code-wise, due to the relatively steep learning curve of Ruby on Rails. None of us had any prior experience with this framework. For the first few weeks we learned a tremendous amount about Ruby on Rails by reading, and coding along with the very extensive tutorial by Michael Hartl\cite{hartl}.\\\\
+It took some time to get used to the framework, and maby we were a bit too enthusiastic, so we ended the first iteration completing around 80\% of the planned user stories.
+
+\subsection{Second iteration}
+\vspace{-5mm}
+With the basic structure of the application implemented, we planned the second iteration with a bit more modesty than the first. This time, we tried to be more effective and organized and started to use \textit{Pivotal Tracker}\cite{pivotal} for user stories. The improvement of using this platform instead of Google Drive is explained in Section \ref{Pivotal_Tracker}.\\\\
+The goal of this iteration was to implement the complete functionality of the platform. We re-planned  the structure of the different web pages, introducing a more advanced functionality. For example, we decided to add timetable subscription to the user functionality.\\
+Ruby offers a very easy use of foreign keys; the way one is able utilize the same variable throughout different models, is genius. Mixing HTML and Ruby is also an excellent way to make our lives a lot easier.\\
+Even though we weren't able to implement all the user stories scheduled, we did almost everything and had to re-plan just a few things for the third and last iteration. In order to plan it properly, we made a document listing all the errors and bugs we stumbled upon during the two first iterations..
+
+\subsection{Third iteration}
+\vspace{-5mm}
+The work planned for this one was separated in three parts: 
+\vspace{-5mm}
+\begin{itemize}\setlength{\itemsep}{-5pt}
+	\item[1.] Finish the leftover work from iteration two.
+	\item[2.] Improve the graphical interface of the website.
+	\item[3.] Sorting out bugs.
+\end{itemize}
+During this iteration, we did "small" agile iterations, due to the fact we were fixing problems and reiterating the code. \\
+We finished the iteration with a fully functioning version of the application, and all the planned functionality implemented.
 	
 \section{Team cooperation and communication}
 \vspace{-5mm}

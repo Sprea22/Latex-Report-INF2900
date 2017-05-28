@@ -29,6 +29,15 @@ Wikipedia.
 Draw IO.
 \newblock \url{https://www.draw.io/}.
 
+\bibitem{hartl}
+Michael Hartl.
+\newblock Ruby on rails tutorial.
+\newblock \url{https://www.railstutorial.org/book}.
+
+\bibitem{pivotal}
+Pivotal Tracker.
+\newblock \url{https://www.pivotaltracker.com/}.
+
 \bibitem{versionController}
 Atlassian.
 \newblock What is a version control.
