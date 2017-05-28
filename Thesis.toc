@@ -6,13 +6,13 @@
 \contentsline {subsection}{\numberline {2.1.1}User stories}{2}{subsection.7}
 \contentsline {subsection}{\numberline {2.1.2}Iterations}{3}{subsection.8}
 \contentsline {section}{\numberline {2.2}Ruby on Rails}{3}{section.10}
-\contentsline {chapter}{\numberline {3}Analysis and Design}{4}{chapter.12}
-\contentsline {section}{\numberline {3.1}Web application architecture}{4}{section.13}
-\contentsline {section}{\numberline {3.2}Models design}{4}{section.14}
-\contentsline {subsection}{\numberline {3.2.1}User}{4}{subsection.16}
+\contentsline {chapter}{\numberline {3}Design}{4}{chapter.12}
+\contentsline {section}{\numberline {3.1}Web application structure}{4}{section.13}
+\contentsline {section}{\numberline {3.2}Models design}{5}{section.14}
+\contentsline {subsection}{\numberline {3.2.1}User}{5}{subsection.16}
 \contentsline {subsection}{\numberline {3.2.2}Timetable}{5}{subsection.17}
 \contentsline {subsection}{\numberline {3.2.3}Event}{5}{subsection.18}
-\contentsline {subsection}{\numberline {3.2.4}Participant}{5}{subsection.19}
+\contentsline {subsection}{\numberline {3.2.4}Participant}{6}{subsection.19}
 \contentsline {subsection}{\numberline {3.2.5}Contact}{6}{subsection.20}
 \contentsline {chapter}{\numberline {4}Team Work}{7}{chapter.21}
 \contentsline {section}{\numberline {4.1}How we apply Agile process}{7}{section.22}
