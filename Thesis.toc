@@ -21,11 +21,11 @@
 \contentsline {section}{\numberline {4.3}Instruments and Applications usage}{10}{section.25}
 \contentsline {subsection}{\numberline {4.3.1}Git}{10}{subsection.26}
 \contentsline {subsection}{\numberline {4.3.2}Pivotal Tracker}{10}{subsection.27}
-\contentsline {chapter}{\numberline {5}Discussion}{12}{chapter.28}
-\contentsline {section}{\numberline {5.1}Evaluation and Limitations}{12}{section.29}
-\contentsline {section}{\numberline {5.2}Team efforts and Time lists}{13}{section.30}
-\contentsline {chapter}{\numberline {6}Conclusions}{14}{chapter.32}
-\contentsline {section}{\numberline {6.1}Summary}{14}{section.33}
-\contentsline {section}{\numberline {6.2}Further Works on the project}{14}{section.34}
-\contentsline {section}{\numberline {6.3}Further Works on the team work process}{14}{section.35}
+\contentsline {chapter}{\numberline {5}Discussion}{11}{chapter.28}
+\contentsline {section}{\numberline {5.1}Evaluation and Limitations}{11}{section.29}
+\contentsline {section}{\numberline {5.2}Team efforts and Time lists}{12}{section.30}
+\contentsline {chapter}{\numberline {6}Conclusions}{13}{chapter.32}
+\contentsline {section}{\numberline {6.1}Summary}{13}{section.33}
+\contentsline {section}{\numberline {6.2}Further Works on the project}{13}{section.34}
+\contentsline {section}{\numberline {6.3}Further improvements on the teamwork}{14}{section.35}
 \contentsline {chapter}{Bibliography}{15}{chapter*.36}
