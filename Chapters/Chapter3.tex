@@ -2,9 +2,9 @@
 \chap{Analysis and Design}
 Concentrate on explaining the decisions made and the reasons for them.
 \section{Web application architecture}
-
+\vspace{-5mm}
 \section{Models design}
-
+\vspace{-5mm}
 \begin{figure}[H]
 	\centering
     \includegraphics[trim={0 0 0 0},clip,width=1\textwidth]{Files/Models.jpg}
@@ -13,16 +13,21 @@ Concentrate on explaining the decisions made and the reasons for them.
 \end{figure}
 \cite{draw:io}
 \subsection{User}
+\vspace{-5mm}
 The user model is responsible for keeping track of the application's user information. It is directly related to the timetable and participant models, because each user must be able to own several timetables, as well as participating.\\ 
 The rest of the model is set up to ensure that the user information is correct. It validates the user e-mail, uses a Bcrypt function to ensure that all users have passwords, and in turn, hashes the password string so that no plaintext passwords are stored in the database. An added feature also allows the user to upload an avatar (profile picture) for their profile. \cite{wiki:RoR}
 
 \subsection{Session}
+\vspace{-5mm}
 \subsection{Timetable}
+\vspace{-5mm}
 The timetable model provide to the users the possibility to set up the general information about a specific schedule. The main utility of the timetable records is to group up the events of the same schedule, allowing users to find and check out the events which they are interested in.
 \subsection{Event}
+\vspace{-5mm}
 The event model allows users to create and record data about a new event of a specific timetable that they own. When ever a owner of a timetable wants to create an event, he has the possibility to do it using this model that provide several active record fields such as name of the events, date of the event, starting time, ending time.. \\
 Is important to remember that each single event belongs to a timetable.
 \subsection{Participant}
+\vspace{-5mm}
 The participant model was the last one on implementation, and the most difficult, due to the fact it has relations with two other models:
 \begin{itemize} \setlength{\itemsep}{-5pt}
 \item Users: a participant is a user. That is, one-to-many relationship.
@@ -35,6 +40,7 @@ The participant model was the last one on implementation, and the most difficult
 Obviously, the fields for the foreign keys to user and timetable can not be empty.\\
 The many-to-many relation was done separating the "belongs\_to/has\_many" instead using the formula "has\_and\_belongs\_to\_many" because this last one caused us problems in the admin page and when trying to use the foreign keys. These problems were caused  because the use of the foreign key as \textit{user.participant} were not different from \textit{user.participants} (there were not two different relationships).
 \subsection{Contact}
+\vspace{-5mm}
 The contact model is a small and simple one, but it contains the necessary parts for a proper e-mail header. 
 Whenever a user submits a new contact form, the model validates the fields of the form, as well as one "invisible" field, 
 used for catching spam bots. This "spam catcher" works by refusing to submit forms where the field \textit{nickname} 
