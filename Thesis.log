@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.3)  28 MAY 2017 18:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.3)  28 MAY 2017 20:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -921,6 +921,9 @@ LaTeX Info: Redefining \nameref on input line 39.
 ------------------------------------------------------------------------------
  Title Page
 ------------------------------------------------------------------------------
+
+Package hyperref Warning: Suppressing link with empty target on input line 15.
+
 [1
 
 
@@ -976,7 +979,7 @@ Chapter 2.
 ------------------------------------------------------------------------------
 [2
 
-] <Files/agile.jpg, id=106, 523.20468pt x 195.73125pt>
+] <Files/agile.jpg, id=105, 523.20468pt x 195.73125pt>
 File: Files/agile.jpg Graphic file (type jpg)
  <use Files/agile.jpg>
 Package pdftex.def Info: Files/agile.jpg used on input line 23.
@@ -987,7 +990,7 @@ Overfull \hbox (36.4228pt too wide) in paragraph at lines 30--31
 e-work. RoR is a model{view{controller
  []
 
-<Files/MVC.png, id=111, 501.875pt x 552.0625pt>
+<Files/MVC.png, id=110, 501.875pt x 552.0625pt>
 File: Files/MVC.png Graphic file (type png)
  <use Files/MVC.png>
 Package pdftex.def Info: Files/MVC.png used on input line 34.
@@ -1000,11 +1003,11 @@ Chapter 3.
 ------------------------------------------------------------------------------
 [4
 
-] <Files/Models.jpg, id=134, 1085.05376pt x 518.93875pt>
+] <Files/Models.jpg, id=133, 1085.05376pt x 518.93875pt>
 File: Files/Models.jpg Graphic file (type jpg)
 
 <use Files/Models.jpg>
-Package pdftex.def Info: Files/Models.jpg used on input line 15.
+Package pdftex.def Info: Files/Models.jpg used on input line 16.
 (pdftex.def)             Requested size: 417.47307pt x 199.66138pt.
  [5 <./Files/Models.jpg>]) (./Chapters/Chapter4.tex
 [6]
@@ -1014,7 +1017,7 @@ Chapter 4.
 ------------------------------------------------------------------------------
 [7
 
-] [8] <Files/user_story.jpg, id=166, 411.78844pt x 344.78813pt>
+] [8] <Files/user_story.jpg, id=165, 411.78844pt x 344.78813pt>
 File: Files/user_story.jpg Graphic file (type jpg)
 
 <use Files/user_story.jpg>
@@ -1027,7 +1030,7 @@ Chapter 5.
 ------------------------------------------------------------------------------
 [11
 
-] <Files/commitsToMaster.png, id=185, 1807.75375pt x 660.4675pt>
+] <Files/commitsToMaster.png, id=184, 1807.75375pt x 660.4675pt>
 File: Files/commitsToMaster.png Graphic file (type png)
 
 <use Files/commitsToMaster.png>
@@ -1047,11 +1050,6 @@ y us-ing a smart-phone browser,
 [13
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 30--32
-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 30--32
 
  []
@@ -1092,7 +1090,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 85.
 Here is how much of TeX's memory you used:
  14278 strings out of 493029
  199075 string characters out of 6136235
- 290934 words of memory out of 5000000
+ 290795 words of memory out of 5000000
  17521 multiletter control sequences out of 15000+600000
  12440 words of font info for 46 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1106,10 +1104,10 @@ t/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts
 /type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1
 /public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
 c/amsfonts/cm/cmtt10.pfb>
-Output written on Thesis.pdf (18 pages, 348094 bytes).
+Output written on Thesis.pdf (18 pages, 348582 bytes).
 PDF statistics:
- 365 PDF objects out of 1000 (max. 8388607)
- 318 compressed objects within 4 object streams
+ 364 PDF objects out of 1000 (max. 8388607)
+ 317 compressed objects within 4 object streams
  65 named destinations out of 1000 (max. 500000)
  320 words of extra memory for PDF output out of 10000 (max. 10000000)
 
