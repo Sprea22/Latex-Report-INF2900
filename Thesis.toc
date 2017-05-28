@@ -1,6 +1,6 @@
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.2}
-\contentsline {section}{\numberline {1.1}Aim of the project}{1}{section.3}
-\contentsline {section}{\numberline {1.2}Aim of the course}{1}{section.4}
+\contentsline {section}{\numberline {1.1}Aim of the course}{1}{section.3}
+\contentsline {section}{\numberline {1.2}Aim of the project}{1}{section.4}
 \contentsline {chapter}{\numberline {2}Background Theory}{2}{chapter.5}
 \contentsline {section}{\numberline {2.1}Agile Software Development}{2}{section.6}
 \contentsline {subsection}{\numberline {2.1.1}User stories}{2}{subsection.7}
@@ -23,11 +23,11 @@
 \contentsline {section}{\numberline {4.3}Instruments and Applications usage}{9}{section.27}
 \contentsline {subsection}{\numberline {4.3.1}Git}{9}{subsection.28}
 \contentsline {subsection}{\numberline {4.3.2}Pivotal Tracker}{9}{subsection.29}
-\contentsline {chapter}{\numberline {5}Discussion}{11}{chapter.30}
-\contentsline {section}{\numberline {5.1}Evaluation and Limitations}{11}{section.31}
-\contentsline {section}{\numberline {5.2}Team efforts and Time lists}{12}{section.32}
-\contentsline {chapter}{\numberline {6}Conclusions}{13}{chapter.34}
-\contentsline {section}{\numberline {6.1}Summary}{13}{section.35}
-\contentsline {section}{\numberline {6.2}Further Works on the project}{13}{section.36}
-\contentsline {section}{\numberline {6.3}Further Works on the team work process}{13}{section.37}
+\contentsline {chapter}{\numberline {5}Discussion}{10}{chapter.30}
+\contentsline {section}{\numberline {5.1}Evaluation and Limitations}{10}{section.31}
+\contentsline {section}{\numberline {5.2}Team efforts and Time lists}{11}{section.32}
+\contentsline {chapter}{\numberline {6}Conclusions}{12}{chapter.34}
+\contentsline {section}{\numberline {6.1}Summary}{12}{section.35}
+\contentsline {section}{\numberline {6.2}Further Works on the project}{12}{section.36}
+\contentsline {section}{\numberline {6.3}Further improvements on the teamwork}{13}{section.37}
 \contentsline {chapter}{Bibliography}{14}{chapter*.38}
