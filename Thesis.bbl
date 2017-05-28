@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{agile:nutshell}
 Jonathan Rasmusson.
@@ -14,6 +14,18 @@ Agile modeling.
 Anthony Miller.
 \newblock Agile and lean ux.
 \newblock \url{https://www.linkedin.com/pulse/agile-lean-ux-anthony-miller}.
+
+\bibitem{w-vs-a}
+Segue~Technologies Inc.
+\newblock Waterfall vs. agile: Which is the right development methodology for
+  your project?
+\newblock \url{http://www.seguetech.com/waterfall-vs-agile-methodology/}.
+
+\bibitem{smartsheet}
+Smartsheet.com.
+\newblock What's the difference? agile vs scrum vs waterfall vs kanban.
+\newblock
+  \url{https://www.smartsheet.com/agile-vs-scrum-vs-waterfall-vs-kanban}.
 
 \bibitem{wiki:RoR}
 Wikipedia.
